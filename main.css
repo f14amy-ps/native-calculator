@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabl {
+    display: flex;
+    width: 310px;
+    height: 75px;
+    border: 1px dashed rgba(255, 255, 255, 0.463);
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.buttons-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(58, 58, 58);
+}
+
+.text {
+    font-family: "Roboto", serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#simvol {
+    color: rgb(0, 106, 255);
+}
+
+#confirm {
+    background-color: rgb(0, 106, 255);
+}
