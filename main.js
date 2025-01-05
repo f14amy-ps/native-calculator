@@ -57,27 +57,27 @@ function click0() {
 
 
 function clickPlus() {
-    calc = calc + " + "
+    calc = calc + "+"
     document.getElementById('text').textContent = calc
     console.log("CLICKED BUTTON '+' RESULT: " + calc)
 }
 function clickMinus() {
-    calc = calc + " - "
+    calc = calc + "-"
     document.getElementById('text').textContent = calc
     console.log("CLICKED BUTTON '-' RESULT: " + calc)
 }
 function clickX() {
-    calc = calc + " x "
+    calc = calc + "*"
     document.getElementById('text').textContent = calc
     console.log("CLICKED BUTTON 'x' RESULT: " + calc)
 }
-function clickDod() {
+function clickDot() {
     calc = calc + "."
     document.getElementById('text').textContent = calc
     console.log("CLICKED BUTTON '1' RESULT: " + calc)
 }
-function click1() {
-    calc = calc + "1"
+function clickDel() {
+    calc = calc + "/"
     document.getElementById('text').textContent = calc
     console.log("CLICKED BUTTON '1' RESULT: " + calc)
 }
@@ -85,7 +85,8 @@ function click1() {
 
 
 function confirm() {
-    eval(calc)
-    document.getElementById('text').textContent = calc
-    console.log("CLICKED BUTTON '=' RESULT: " + calc)
+    res = eval(calc)
+    calc = ""
+    document.getElementById('text').textContent = res
+    console.log("CLICKED BUTTON '=' RESULT: " + res)
 }
